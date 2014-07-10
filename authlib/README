@@ -1,2 +1,2 @@
-authlib.php is a script full of functions that are used in place of $_SESSION for more secure user authentication. It works on top of PHP's sessions but adds the ability to salt all content that is database side for sessions.
+authlib.php is a script full of functions that are used in place of PHP Sessions for more secure user authentication. It works on top of PHP's sessions but adds the ability to salt all content that is database side for sessions.
 
