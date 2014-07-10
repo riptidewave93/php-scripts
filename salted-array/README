@@ -1,0 +1,6 @@
+These files are dated back from around 2011. They are an example of using php5-crypt to salt strings, pass them over http, and then decrypt the contents on the other side.
+
+listener.php - Script that will print out a salted array
+server.php - Script that will call listener.php, and convert the array back into a usable format.
+
+Make sure that all Keys are the same between the files, otherwise you will have issues...
